@@ -1,0 +1,27 @@
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: #900;
+    left: 0;
+    right: 0;
+    height: 0px;
+}
+body:before {
+    top: 0;
+}
+body:after {
+    bottom: 0;
+}
+body {
+    border-left: 200px solid #900;
+    border-right: 200px solid #900;
+    border-left-color: black;
+    border-right-color: black;
+}
+
+h1 {
+  background-color: #CC0300;
+  color: white;
+  padding: 16;
+  font: 25px Arial, sans-serif;
+}
